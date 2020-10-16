@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Poppins:wght@100&display=swap");
+
+body{
+    font-family:  'Poppins', sans-serif;
+    background-color: #fed330;
+    color: black;
+    font-size: large;
+    padding:0;
+    margin: 0;
+}
+.moietangy {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1cm;
+
+}
+
+.intro{
+    display: flex;
+    justify-content: center;
+    margin-top: 1cm;
+}
+
+#légende {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.un, .deux, .trois, .quatre {
+
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 2rem;
+    margin-left: 0.2cm;
+    margin-right: 0.2cm;
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
+}
+
+
+
+.rond {
+    border-radius: 2rem;
+}
+
+#rang1, #rang2, #rang3, #rang4 {
+    display: flex;
+    flex-direction: row;
+    border-width: 2px;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+}
+
+a:hover{
+    color: rgb(131, 131, 131);
+}
+
+.r1c1, .r1c2, .r1c3, .r1c4,
+.r2c1, .r2c2, .r2c3, .r2c4, 
+.r3c1, .r3c2, .r3c3, .r3c4, 
+.r4c1, .r4c2, .r4c3, .r4c4, .quatre  {
+    border-style: solid;
+    border-color: #26de81;
+    background-color: #26de81 ;
+    border-radius: 1rem;
+    margin-left: 0.2cm;
+    margin-right: 0.2cm;
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
+    justify-content: center;
+}
+
+p {
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.r2c2, .r3c1, .r4c4, .deux {
+    border-color: #f8a5c2;
+    background-color: #f8a5c2;
+}
+
+ .r1c3, .r2c4, .r4c2, .un {
+     border-color: #f7d794;
+     background-color: #f7d794;
+ } 
+
+ .r1c2, .trois {
+     border-color: #e15f41;
+     background-color: #e15f41
+ }
+
+ @import url("https://fonts.googleapis.com/css2?family=Commissio");
+
+ nav {
+    background-image: url(images/lion.jpg);
+    font-family:  'Commissioner', sans-serif;
+    overflow: hidden;
+    padding-bottom: 2cm;
+    border: none !important ;
+  }
+
+  nav a {
+      color: black;
+      font-size: xx-large;
+  }
+
+.navbas{
+    font-size: xx-large;
+    font-family:  'Commissioner', sans-serif;
+    font-weight: 900;
+}
+ 
+
+.valider {
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    text-align: center;
+}
+
+input[type='submit'], input[type='text']{
+    width: 7.1cm;
+    height: 1.2cm;
+    border-radius: 10px;
+    margin-top: 2cm;
+    font-size: large;
+    color: black;
+    background-color: #26de81;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+input[type='text']{
+background-color: whitesmoke;
+}
+
+label[for="text"]{
+
+}
+
+h2 {
+    text-align: center;
+}
+
+#rang4 {
+    margin-bottom: 1cm;
+}
+
+h1:hover{
+    transform: scale(1.2);
+}
+/* Anime le texte quand on le survol */
